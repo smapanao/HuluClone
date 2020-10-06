@@ -1,0 +1,31 @@
+.videoCard{
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms;
+}
+
+/*add a mouse over hover effect, adjust transition in the container css. This case ".videoCard"*/
+.videoCard:hover{
+    transform: scale(1.09);
+}
+
+.videoCard > img {
+    height: 300px;
+    object-fit: contain;
+    width: 500px;
+}
+
+.videoCard_stats{
+    display: none;
+}
+
+.videoCard:hover > .videoCard_stats{
+    display: inline-flex;
+}
+
+.videoCard > h2{
+    padding-top: 10px;
+}
+

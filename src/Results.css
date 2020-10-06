@@ -1,0 +1,7 @@
+/* how to format videoCards in a grid-like layout. Also responsive */
+.results > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
